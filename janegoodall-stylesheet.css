@@ -22,7 +22,6 @@
       position: relative;
       text-align:center;
       size: 22px;
-      widht: 15px;
       top: 190px;
       right: auto;
       background-color: transparent;
@@ -57,7 +56,7 @@
      
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid_template-rows: 33% 33% 33%;
+      
       grid-template-areas:
         "profile-pic . ."      
         ". . hugging"
@@ -80,6 +79,7 @@
           width:40%;
           border-radius:50%;
           float:left;
+          padding-bottom: 20px;
           
     }
     #img-caption1 {
@@ -117,7 +117,7 @@
       grid-area:holding-hands;
     }
     #image2 {
-      border-radius: 10%;
+      border-radius: 15%;
       align-content: center;
       }
     #img-caption2{
@@ -142,7 +142,7 @@
       
     }
     #image3{
-      border-radius: 10%;
+      border-radius: 15%;
       align-content: center;}
     #img-caption3{
       text-align:center;
@@ -165,7 +165,7 @@
       grid-area:hair;
     }
     #image4 {
-      border-radius: 10%;
+      border-radius: 15%;
       align-content: center;
       }
     #img-caption4{
@@ -188,7 +188,7 @@
       grid-area:sitting;
     }
     #image5 {
-      border-radius: 10%;
+      border-radius: 15%;
       align-content: center;
       }
     #img-caption5{
@@ -213,7 +213,7 @@
       
     }
     #image6{
-      border-radius: 10%;
+      border-radius: 15%;
       align-content: center;}
     #img-caption6{
       text-align:center;
@@ -224,7 +224,7 @@
     transform:scale(1.05);
   }
 
-#img-div7 {
+    #img-div7 {
       position:relative;
       top:190px;
       left:12px;
@@ -232,17 +232,12 @@
       grid-area: final;
       border-style:solid;
       border-radius:0%;
-      box-shadow: 0px 0px 9px 2px black;
-      
-      
-    }
+      box-shadow: 0px 0px 9px 2px black;}
     #image7{
-      border-radius: 10%;
+      border-radius: 15%;
       align-content: center;}
     #img-caption7{
-      text-align:center;
-  
-}
+      text-align:center;}
     .grid-item7:hover {
     transform:scale(1.05);
   }
@@ -250,12 +245,10 @@
     .vl {
   border-left: 100px solid transparent;
   border-image: url();
-  height: 2000px;
+  height: 2400px;
   position: absolute;
   left: 45%;
   margin-left: -3px;
-  top: 260px;
-  
   background-image: url(https://images.unsplash.com/photo-1441021938578-e42e6989bb81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
   
 }
