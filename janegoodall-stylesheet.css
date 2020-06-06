@@ -1,0 +1,305 @@
+
+* {
+  box-sizing: border-box;
+}
+  
+  
+    #banner{
+      position:absolute;
+      align-content:center;
+      margin-top:-23px;
+      margin-left:-8px;
+      border-style: 10px solid;
+      border-radius: 2%;
+      box-shadow: 0px 0px 9px 2px;
+      height: 30%;
+      width:100%;
+      
+
+
+    }
+    #name{
+      position: relative;
+      text-align:center;
+      size: 22px;
+      widht: 15px;
+      top: 190px;
+      right: auto;
+      background-color: transparent;
+      
+
+    }
+    #nick{
+      position: relative;
+      text-align:center;
+      font-size:20px;
+      font-style:italic;
+      top: 164px;
+      right: auto;
+      background-color: transparent;
+      
+    }
+
+.title {
+  position:absolute;
+  top:-110px;
+  left: 10px;
+  color:#000000;
+}
+  
+  
+    .grid-container{
+      margin-top:-8px;
+      margin-left:-8px;
+      margin-right:-8px;
+      max-height:100%;
+      background-color:transparent;
+     
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid_template-rows: 33% 33% 33%;
+      grid-template-areas:
+        "profile-pic . ."      
+        ". . hugging"
+        "holding-hands . ."
+        ". . hair"
+        "sitting . ."
+        ". . group"
+        "quote . ."
+        "final . .";
+     
+    }
+  
+
+    #image1{
+          position:relative;
+          top:10px;
+          left:-4px;
+          align-content:center;
+          height: 40%;
+          width:40%;
+          border-radius:50%;
+          float:left;
+          
+    }
+    #img-caption1 {
+      text-align:center;
+      
+    }
+    .grid-item1 {
+      grid-area: profile-pic;
+      position: relative;
+      top: 210px;
+      left:12px;
+      background-color:tan;
+      align-content:center;
+      border-style:solid;
+      border-radius:5%;
+      box-shadow: 0px 0px 9px 2px black;
+      padding-left:10px;
+      padding-right: 10px;
+      width:100%;
+    }
+    .grid-item1:hover {
+    transform:scale(1.05);
+  }
+  
+
+    #img-div2{
+      animation-name:holding-hands;
+      position:relative;
+      top:200px;
+      left:13px;
+      background-color:tan;
+      border-style:solid;
+      border-radius:10%;
+      box-shadow: 0px 0px 9px 2px black;
+      grid-area:holding-hands;
+    }
+    #image2 {
+      border-radius: 10%;
+      align-content: center;
+      }
+    #img-caption2{
+      text-align:center;
+      
+    }
+    .grid-item2:hover {
+    transform:scale(1.05);
+  }
+    
+
+    #img-div3 {
+      position:relative;
+      top:190px;
+      right:10px;
+      background-color:tan;
+      grid-area: hugging;
+      border-style:solid;
+      border-radius:10%;
+      box-shadow: 0px 0px 9px 2px black;
+      
+      
+    }
+    #image3{
+      border-radius: 10%;
+      align-content: center;}
+    #img-caption3{
+      text-align:center;
+      
+      
+}
+    .grid-item3:hover {
+    transform:scale(1.05);
+  }
+    
+
+    #img-div4{
+      position:relative;
+      top:200px;
+      right:13px;
+      background-color:tan;
+      border-style:solid;
+      border-radius:10%;
+      box-shadow: 0px 0px 9px 2px black;
+      grid-area:hair;
+    }
+    #image4 {
+      border-radius: 10%;
+      align-content: center;
+      }
+    #img-caption4{
+      text-align:center;
+      
+    }
+    .grid-item4:hover {
+    transform:scale(1.05);
+  }
+
+    #img-div5{
+      animation-name:holding-hands;
+      position:relative;
+      top:200px;
+      left:13px;
+      background-color:tan;
+      border-style:solid;
+      border-radius:10%;
+      box-shadow: 0px 0px 9px 2px black;
+      grid-area:sitting;
+    }
+    #image5 {
+      border-radius: 10%;
+      align-content: center;
+      }
+    #img-caption5{
+      text-align:center;
+      
+    }
+    .grid-item5:hover {
+    transform:scale(1.05);
+  }
+    
+
+    #img-div6 {
+      position:relative;
+      top:190px;
+      right:10px;
+      background-color:tan;
+      grid-area: group;
+      border-style:solid;
+      border-radius:10%;
+      box-shadow: 0px 0px 9px 2px black;
+      
+      
+    }
+    #image6{
+      border-radius: 10%;
+      align-content: center;}
+    #img-caption6{
+      text-align:center;
+      
+      
+}
+    .grid-item6:hover {
+    transform:scale(1.05);
+  }
+
+#img-div7 {
+      position:relative;
+      top:190px;
+      left:12px;
+      background-color:tan;
+      grid-area: final;
+      border-style:solid;
+      border-radius:0%;
+      box-shadow: 0px 0px 9px 2px black;
+      
+      
+    }
+    #image7{
+      border-radius: 10%;
+      align-content: center;}
+    #img-caption7{
+      text-align:center;
+  
+}
+    .grid-item7:hover {
+    transform:scale(1.05);
+  }
+    
+    .vl {
+  border-left: 100px solid transparent;
+  border-image: url();
+  height: 2000px;
+  position: absolute;
+  left: 45%;
+  margin-left: -3px;
+  top: 260px;
+  
+  background-image: url(https://images.unsplash.com/photo-1441021938578-e42e6989bb81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+  
+}
+    #hr1 {
+    position:absolute;
+    top:60%;
+    left: 30%;
+    width: 180px;
+    max-width:50%;
+ 
+}
+    #hr2 {
+    position:absolute;
+    top:100%;
+    right: 26%;
+    width: 200px;
+    max-width:50%;
+ 
+}
+    #hr3 {
+      position:absolute;
+        top:142%;
+        left: 35%;
+        width: 160px;
+        max-width:50%;
+    }
+    #hr4 {
+    position:absolute;
+    top:1150px;
+    right: 35%;
+    width: 160px;
+    max-width:50%;
+ 
+}
+
+
+  
+ img{
+   max-width:100%
+  }
+p{
+  margin: 15px 10px 5px 10px
+}
+body{
+    background-image: url(https://i.pinimg.com/474x/fd/ef/73/fdef73895a8fa8f4e33691628dea0ed8--jungle-pattern-jungle-art.jpg);
+  }
+
